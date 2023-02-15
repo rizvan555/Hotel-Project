@@ -1,10 +1,18 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../resource/fonts/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-size: 10px;
+  font-family: "Ubuntu", sans-serif;
 }
 header {
   display: flex;
