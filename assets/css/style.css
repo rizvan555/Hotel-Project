@@ -35,8 +35,12 @@ header {
 .header__nav-container a {
   text-decoration: none;
   color: rgb(142, 107, 82);
-  margin: 0 20px;
+  margin: 0 40px;
   font-size: 1.1rem;
+}
+.header__nav-container a:hover {
+  color: #dfaa5b;
+  text-decoration: underline;
 }
 .page1_article {
   display: flex;
@@ -53,11 +57,11 @@ header {
 }
 .page1_article h1 {
   font-weight: 200;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   padding-top: 80px;
 }
 .page1_article p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .explore-button {
   padding: 10px 60px;
@@ -66,6 +70,9 @@ header {
   border-radius: 5px;
   color: #fff;
   border: 1px solid transparent;
+}
+.explore-button:hover {
+  background-color: rgb(142, 107, 82);
 }
 
 .page2_article {
@@ -141,6 +148,12 @@ header {
   color: #fff;
   outline: 0;
   border: 1px solid transparent;
+}
+.image1_button:hover,
+.image2_button:hover,
+.image3_button:hover,
+.image4_button:hover {
+  background-color: rgb(142, 107, 82);
 }
 .image1 {
   background-image: url("../resource/images/standard_twin_room.png");
@@ -218,6 +231,9 @@ header {
   border: 1px solid transparent;
   margin-top: 10px;
 }
+.rooms-rates_button:hover {
+  background-color: rgb(142, 107, 82);
+}
 footer {
   display: flex;
   justify-content: space-between;
@@ -252,6 +268,9 @@ footer {
   text-decoration: none;
   font-size: 0.9rem;
 }
+.center-container ul li a:hover {
+  text-decoration: underline;
+}
 .right-container {
   display: flex;
   flex-direction: column;
@@ -272,4 +291,7 @@ footer {
   border-radius: 5px;
   outline: 0;
   border: 1px solid transparent;
+}
+.right-container__button:hover {
+  background-color: rgb(142, 107, 82);
 }
