@@ -70,6 +70,7 @@ header {
   border-radius: 5px;
   color: #fff;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .explore-button:hover {
   background-color: rgb(142, 107, 82);
@@ -148,6 +149,7 @@ header {
   color: #fff;
   outline: 0;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .image1_button:hover,
 .image2_button:hover,
@@ -230,6 +232,7 @@ header {
   outline: 0;
   border: 1px solid transparent;
   margin-top: 10px;
+  cursor: pointer;
 }
 .rooms-rates_button:hover {
   background-color: rgb(142, 107, 82);
@@ -291,6 +294,7 @@ footer {
   border-radius: 5px;
   outline: 0;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .right-container__button:hover {
   background-color: rgb(142, 107, 82);
