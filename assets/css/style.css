@@ -36,7 +36,7 @@ header {
   text-decoration: none;
   color: rgb(142, 107, 82);
   margin: 0 40px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 .header__nav-container a:hover {
   color: #dfaa5b;
@@ -57,14 +57,14 @@ header {
 }
 .page1_article h1 {
   font-weight: 200;
-  font-size: 2.8rem;
-  padding-top: 80px;
+  font-size: 2.9rem;
+  padding-top: 70px;
 }
 .page1_article p {
   font-size: 1.2rem;
 }
 .explore-button {
-  padding: 10px 60px;
+  padding: 12px 70px;
   background-color: rgb(223, 170, 90);
   outline: none;
   border-radius: 5px;
@@ -88,7 +88,7 @@ header {
 }
 .menu-icons-container {
   display: flex;
-  gap: 100px;
+  gap: 130px;
 }
 .kitchen-box,
 .pool-box,
@@ -134,7 +134,7 @@ header {
 .image2 h3,
 .image3 h3,
 .image4 h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 100;
   margin-bottom: 30px;
 }
@@ -142,7 +142,7 @@ header {
 .image2_button,
 .image3_button,
 .image4_button {
-  padding: 8px 30px;
+  padding: 10px 40px;
   border-radius: 5px;
   background-color: rgb(223, 170, 90);
   color: #fff;
